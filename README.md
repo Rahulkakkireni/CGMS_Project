@@ -1,1 +1,1 @@
-
+Centralized Grievance  Management System is developed for Bank in our project.It consists of three Pages.One is Login Page ,User Page and Admin Page.Login page consists of Account Number and Password.Based upon the credentials entered ,user and admin can login into their respective pages.
