@@ -3,7 +3,6 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 //import Login from './Login';
 import Griveancepage from './Griveancepage'
-// import GriveanceEdit from './GrievanceEdit'
 import Admin from './Admin'
 
 const Content = () => {
@@ -21,28 +20,12 @@ const Content = () => {
         if(number==="123456" && password==="password"){
             navigate('/Griveancepage')
         }
-        // const response =  fetch("mongodb://localhost:27017/LoginPage", {
-        //     method: "POST",
-        //     headers: {
-        //       "Content-Type": "application/json",
-        //     },
-        //     body: JSON.stringify({ number , password }),
-        //   });
-        //   const data =  response.json();
-        //   // If the credentials are correct, navigate to the homepage
-        //   if (data.status === "success") {
-        //     navigate("/GrievnacePage");
-        //   }
         else if(number==="1234567" && password==="admin"){
             navigate('/Admin')
         }
          else{
                 alert("Invalid A/C Number and Password")
-            } 
-        //   }  
-         
-         
-        
+            }  
   }
    
   return (
